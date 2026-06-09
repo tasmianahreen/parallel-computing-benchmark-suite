@@ -1,0 +1,19 @@
+# Build files
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Executables
+benchmark
+*.out
