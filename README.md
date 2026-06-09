@@ -60,16 +60,3 @@ ROCm/HIP: 23.69x
 
 Your exact times will depend on your CPU, GPU, drivers, and matrix size.
 
-## Resume Bullets
-
-- Built a C++ parallel computing benchmark suite comparing CPU, OpenMP, and ROCm/HIP GPU implementations of matrix multiplication across varying workloads.
-- Implemented automated correctness validation using max-error comparison against a CPU baseline to verify GPU and multithreaded outputs.
-- Measured runtime and speedup across CPU and GPU execution paths, demonstrating performance optimization and hardware-aware debugging.
-
-## Possible Extensions
-
-- Add tiled/shared-memory HIP matrix multiplication.
-- Add CSV output for benchmark results.
-- Add more algorithms: vector addition, convolution, prefix sum, graph traversal.
-- Add GoogleTest unit tests.
-- Add GitHub Actions build for CPU-only components.
