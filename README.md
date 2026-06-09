@@ -6,8 +6,6 @@ This project compares three matrix multiplication implementations:
 2. OpenMP parallel CPU implementation
 3. ROCm/HIP GPU implementation
 
-It is designed as a resume-friendly systems/performance project for roles involving C++, hardware-aware software, validation, benchmarking, and debugging.
-
 ## Requirements
 
 - Linux
